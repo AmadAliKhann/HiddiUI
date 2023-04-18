@@ -1,10 +1,12 @@
-function App() {
+import React from "react";
+import Navbar from "./components/navbar/Navbar.jsx";
 
+function App() {
   return (
     <div>
-      Hello world!
-    </div>
-  )
+      <Navbar />
+        </div>
+  );
 }
 
-export default App
+export default App;
