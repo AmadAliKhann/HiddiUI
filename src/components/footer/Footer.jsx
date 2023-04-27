@@ -62,10 +62,11 @@ const Footer = () => {
             <span>Working Not Working</span>
           </div>
         </div>
+        <hr/>
         <div className="bottom">
           <div className="left">
             <h2>Hidii</h2>
-            <span>© Fiverr International Ltd. 2023</span>
+            <span>© Hidii International Ltd. 2023</span>
           </div>
           <div className="right">
             <div className="social">
@@ -76,9 +77,14 @@ const Footer = () => {
               <img src="./img/instagram.svg" alt="" />
             </div>
             <div className="link">
-              <img src="./img/" alt="" />
+              <img src="./img/language.svg" alt="" />
               <span>English</span>
             </div>
+            <div className="link">
+              <img src="./img/language.svg" alt="" />
+              <span>USD</span>
+            </div>
+            <img src="./img/accessbility.svg" alt="" />
           </div>
         </div>
       </div>

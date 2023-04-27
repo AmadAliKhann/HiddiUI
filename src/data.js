@@ -121,3 +121,90 @@ export const projects = [
     },
     
 ]
+
+export const gigs =[
+{
+    id:1,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6.jpg",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png",
+    desc: "Gig1 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},
+{
+    id:2,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/299693034/original/d3569653f0c251740d446ce3c1183ae2ad496c3e.png",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/69e4f65c3ab8aa4c437311f2aa74eecb-1675582904977/70185205-0fe0-4ebe-b3b7-daf88be0f070.jpg",
+    desc: "Gig2 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:3,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6.jpg",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png",
+    desc: "Gig3 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:4,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/299693034/original/d3569653f0c251740d446ce3c1183ae2ad496c3e.png",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/69e4f65c3ab8aa4c437311f2aa74eecb-1675582904977/70185205-0fe0-4ebe-b3b7-daf88be0f070.jpg",
+    desc: "Gig4 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:5,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6.jpg",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png",
+    desc: "Gig5 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:6,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/299693034/original/d3569653f0c251740d446ce3c1183ae2ad496c3e.png",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/69e4f65c3ab8aa4c437311f2aa74eecb-1675582904977/70185205-0fe0-4ebe-b3b7-daf88be0f070.jpg",
+    desc: "Gig6 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:7,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6.jpg",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png",
+    desc: "Gig7 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:8,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/299693034/original/d3569653f0c251740d446ce3c1183ae2ad496c3e.png",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/69e4f65c3ab8aa4c437311f2aa74eecb-1675582904977/70185205-0fe0-4ebe-b3b7-daf88be0f070.jpg",
+    desc: "Gig8 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:9,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6.jpg",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png",
+    desc: "Gig9 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},{
+    id:10,
+    img:"https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/299693034/original/d3569653f0c251740d446ce3c1183ae2ad496c3e.png",
+    pp:"https://fiverr-res.cloudinary.com/t_profile_thumb,q_auto,f_auto/attachments/profile/photo/69e4f65c3ab8aa4c437311f2aa74eecb-1675582904977/70185205-0fe0-4ebe-b3b7-daf88be0f070.jpg",
+    desc: "Gig10 desc",
+    price: 112,
+    star:5,
+    username: "Amad Ali Khan",
+},
+
+
+]
