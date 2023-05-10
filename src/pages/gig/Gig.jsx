@@ -15,6 +15,7 @@ const Gig = () => {
           </h1>
           <div className="user">
             <img
+              className="pp"
               src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png"
               alt=""
             />
@@ -28,7 +29,7 @@ const Gig = () => {
               <span>5</span>
             </div>
           </div>
-          <Slider slidesToShow={1} arrowsScroll={1}>
+          <Slider slidesToShow={1} arrowsScroll={1} className="slider">
             <img
               src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/298455330/original/71894dfd3e509a10b445aeca0b3db60d38f2e7e6/create-amazing-fictional-ai-art-portraits-character-design.jpg"
               alt=""
@@ -91,6 +92,10 @@ const Gig = () => {
                   <span className="desc">2 hours</span>
                 </div>
                 <div className="item">
+                  <span className="title">Last Delivery</span>
+                  <span className="desc">1 day</span>
+                </div>
+                <div className="item">
                   <span className="title">Languages</span>
                   <span className="desc">Dutch, English</span>
                 </div>
@@ -111,6 +116,7 @@ const Gig = () => {
             <div className="item">
               <div className="user">
                 <img
+                  className="pp"
                   src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png"
                   alt=""
                 />
@@ -147,13 +153,13 @@ const Gig = () => {
                 <span>Yes</span>
                 <img src="/img/dislike.svg" alt="" />
                 <span>No</span>
-
               </div>
             </div>
             <hr />
             <div className="item">
               <div className="user">
                 <img
+                  className="pp"
                   src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png"
                   alt=""
                 />
@@ -190,13 +196,13 @@ const Gig = () => {
                 <span>Yes</span>
                 <img src="/img/dislike.svg" alt="" />
                 <span>No</span>
-
               </div>
             </div>
             <hr />
             <div className="item">
               <div className="user">
                 <img
+                  className="pp"
                   src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/d6935fae9d7454d4236e815782948820-1675163338912/2f5246b9-513e-4b51-bef6-457feb13cefe.png"
                   alt=""
                 />
@@ -233,12 +239,46 @@ const Gig = () => {
                 <span>Yes</span>
                 <img src="/img/dislike.svg" alt="" />
                 <span>No</span>
-
               </div>
             </div>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="price">
+            <h3>Basic</h3>
+            <h2>$ 59.99</h2>
+          </div>
+          <p>1 Variation Images to explore your concept.</p>
+          <div className="details">
+            <div className="item">
+              <img src="/img/clock.svg" alt="" />
+              <span>2 Days Delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/recycle.svg" alt="" />
+              <span>3 Revisions</span>
+            </div>
+          </div>
+          <div className="features">
+            <div className="item">
+              <img src="/img/greencheck.svg" alt="" />
+              <span>Prompt writing</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.svg" alt="" />
+              <span>Prompt delivery</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.svg" alt="" />
+              <span>Generated image examples</span>
+            </div>
+            <div className="item">
+              <img src="/img/greencheck.svg" alt="" />
+              <span>Artwork delivery</span>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
       </div>
     </div>
   );

@@ -87,6 +87,7 @@ const Navbar = () => {
             <Link className="link" to="/">Lifestyle</Link>
 
           </div>
+          <hr />
         </>
       )}
     </div>
